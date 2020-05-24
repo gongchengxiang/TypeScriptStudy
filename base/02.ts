@@ -5,6 +5,7 @@
 // 对象数据类型：object array
 let boolValue: boolean = false;
 boolValue = true;
+boolValue = false;
 boolValue = Boolean(1);
 console.log(boolValue);
 
