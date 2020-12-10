@@ -4,6 +4,7 @@
 // 对象数据类型：object array
 var boolValue = false;
 boolValue = true;
+boolValue = false;
 boolValue = Boolean(1);
 console.log(boolValue);
 var numberValue = 1;

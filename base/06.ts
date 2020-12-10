@@ -16,14 +16,26 @@ const gcx: Person = {
 // 可选属性 ,接口属性后面加问号，类中可有可以
 interface Obj {
   name: string;
-  aaa?: any;
+  aaa?: string;
+  [key:string]:any;
 }
 
 const obj: Obj = {
   name: "obj",
+  aaa: 'male'
 };
-
+const obj1: Obj = {
+  name: "obj"
+};
 // 任意属性
 interface anyObj {
   [propName: string]: any;
 }
+// 只读属性
+interface Gcx{
+  readonly name: string;
+}
+const gcx1: Gcx = {
+  name: 'gcx'
+}
+// gcx1.name='gcx1' // name无法被修改

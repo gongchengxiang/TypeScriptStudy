@@ -15,6 +15,7 @@ numberValue = NaN;
 numberValue = Infinity;
 numberValue = 0.012;
 numberValue = undefined;
+numberValue = null;
 console.log(numberValue);
 
 let stringValue: string = "gcx";
