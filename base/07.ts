@@ -18,3 +18,5 @@ interface ArrayLikeObj {
   callee: Function;
 }
 // ArrayLikeObj 这个可以用来描述函数的参数对象 arguments
+
+const anyArray: any[] = [1,'d',{a:1},[]];
