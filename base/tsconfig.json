@@ -1,5 +1,0 @@
-{
-  "compilerOptions": {
-    "noEmitOnError": true // 编译的源文件中存在错误的时候不再输出编译结果文件
-  }
-}

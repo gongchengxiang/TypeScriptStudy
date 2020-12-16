@@ -1,4 +1,4 @@
-// hello typescript
+// 类型
 function seyHello(person) {
     return "Hello, " + person;
 }

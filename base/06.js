@@ -6,5 +6,13 @@ var gcx = {
     gender: "male"
 };
 var obj = {
+    name: "obj",
+    aaa: 'male'
+};
+var obj1 = {
     name: "obj"
 };
+var gcx1 = {
+    name: 'gcx'
+};
+// gcx1.name='gcx1' // name无法被修改

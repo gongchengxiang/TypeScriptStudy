@@ -9,10 +9,10 @@ interface Fish{
   name:string;
   swim():void;
 }
-// const fish:Fish ={
-//   name:'fish',
-//   swim(){}
-// }
+const fish:Fish ={
+  name:'fish',
+  swim(){}
+}
 // 下面这个例子不太对，只是为了说明 animal as Cat 才能使用cat的专属方法， as 只能骗过typescript， 运行时该保存还是报错
 function animal(animal:Cat|Fish):void{
   if(typeof (animal as Cat).run === 'function'){

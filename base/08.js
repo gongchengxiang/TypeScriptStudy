@@ -17,3 +17,21 @@ var sort = function () {
     return rest.sort(function (a, b) { return a - b; });
 };
 console.log(sort(4, 2, 3));
+// 可选参数
+function fn2(name) {
+    return 'hello' + name;
+}
+// 默认参数
+function fn3(name) {
+    if (name === void 0) { name = 'gcx'; }
+    return 'hello' + name;
+}
+function reverse(x) {
+    if (typeof x === 'number') {
+        return Number(x.toString().split('').reverse().join(''));
+    }
+    else if (typeof x === 'string') {
+        return x.split('').reverse().join('');
+    }
+}
+reverse(1);
